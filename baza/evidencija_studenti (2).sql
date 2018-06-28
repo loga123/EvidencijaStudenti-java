@@ -95,14 +95,6 @@ CREATE TABLE `migrations` (
 -- Dumping data for table `migrations`
 --
 
-INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(1, '2014_10_12_100000_create_password_resets_table', 1),
-(2, '2017_04_10_092202_create_razinaPrava_table', 1),
-(3, '2017_04_11_000000_create_users_table', 1),
-(4, '2017_04_1_000001_create_kolegij_table', 1),
-(5, '2017_04_21_090000_create_student_na_kolegiju_table', 1),
-(6, '2017_04_21_092510_create_evidencija_table', 1),
-(7, '2017_05_08_152216_create_termin_table', 1);
 
 -- --------------------------------------------------------
 
@@ -175,9 +167,7 @@ CREATE TABLE `studij` (
 -- Dumping data for table `studij`
 --
 
-INSERT INTO `studij` (`sifra_studija`, `naziv`, `created_at`, `updated_at`) VALUES
-(1, 'Stručni studij Informatike', NULL, NULL),
-(2, 'Specijalistički diplomski stručni studij Informacijske tehnologije u poslovnim sustavima', NULL, NULL);
+
 
 -- --------------------------------------------------------
 
